@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" id="display" readonly>
+            <div class="buttons">
+                <button class="button" onClick="clearDisplay()">C</button>
+                <button class="button" onClick="deleteChar()">DEL</button>
+                <button class="button" onClick="appendChar('%')">%</button>
+                <button class="button" onClick="appendChar('*')">X</button>
+                <button class="button" onClick="appendChar('9')">9</button>
+                <button class="button" onClick="appendChar('8')">8</button>
+                <button class="button" onClick="appendChar('7')">7</button>
+                <button class="button" onClick="appendChar('+')">+</button>
+                <button class="button" onClick="appendChar('6')">6</button>
+                <button class="button" onClick="appendChar('5')">5</button>
+                <button class="button" onClick="appendChar('4')">4</button>
+                <button class="button" onClick="appendChar('-')">-</button>
+                <button class="button" onClick="appendChar('3')">3</button>
+                <button class="button" onClick="appendChar('2')">2</button>
+                <button class="button" onClick="appendChar('1')">1</button>
+                <button class="button" onClick="appendChar('/')">/</button>
+                <button class="button" onClick="appendChar('0')">0</button>
+                <button class="button" onClick="appendChar('.')">.</button>
+                <button class="button" onClick="calculate()">=</button>
+
+            </div>
+        </div>
+    </div>
+   <script src="script.js"></script> 
+</body>
+</html>
